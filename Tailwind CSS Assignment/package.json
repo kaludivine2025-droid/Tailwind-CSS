@@ -1,0 +1,16 @@
+{
+  "name": "tailwind-landing-page",
+  "version": "1.0.0",
+  "description": "Tailwind CSS Assignment Submission",
+  "main": "index.html",
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/output.css",
+    "watch": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
